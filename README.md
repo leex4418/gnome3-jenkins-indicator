@@ -47,4 +47,7 @@ Please be aware that the extension checks your Jenkins CI Server only at the pro
 If the build time for a job is shorter than the auto-refresh interval the extension will most likely not notice finished builds.
 
 ### 4. Filter jobs:
-There is a filter for each job state. Enabling the switch will show the matching jobs in the popup menu, disabling the switch will hide the jobs.
+There is a filter for each job state. Enabling the switch will show the matching jobs in the popup menu, disabling the 
+switch will hide the jobs.  
+Additionally "Jobs to show" allow you to filter your jobs by name. **all** (default) will show all jobs, but it is also possible to
+only show the jobs "foo" and "bar" by setting the filter to **foo,bar**, or to hide **!foo** and show all other jobs.
